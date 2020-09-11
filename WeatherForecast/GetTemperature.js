@@ -21,7 +21,7 @@ function getTemperature(){
 	})
 
 	if (++i > 20) return
-	setTimeout(getTemperature, 600000)
+	setTimeout(getTemperature, 3600000)
 }
 
 function getThingSpeak() {
